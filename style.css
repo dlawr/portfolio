@@ -3,6 +3,9 @@ header {
   background-size: cover;
   color: black;
 }
+footer {
+  text-align: center;
+}
 body{
   background: white;
   background-size: cover;
