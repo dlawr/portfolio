@@ -38,9 +38,24 @@ article {
   padding: 20px;
   margin: 0 auto;
 }
+/***********************/
+/*portfolio pieces*/
+/***********************/
 .project {
-  display: inline-block;
+  overflow: auto;
 }
+.project span {
+   float: left;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.project img {
+   float: left;
+   border-style: solid;
+}​
+/***********************/
+/*reactive design/narrow screen*/
+/***********************/
 @media (max-width: 800px) {
   h1 {
     font-size: 36px;
