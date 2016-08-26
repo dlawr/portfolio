@@ -6,7 +6,7 @@ header {
 footer {
   text-align: center;
 }
-body{
+body {
   background: white;
   background-size: cover;
   font-family: georgia;
@@ -18,7 +18,7 @@ a {
 h1 {
   font-size: 70px;
 }
-p{
+p {
   font-size: 20px;
 }
 img {
@@ -38,15 +38,18 @@ article {
   padding: 20px;
   margin: 0 auto;
 }
+.project {
+  display: inline-block;
+}
 @media (max-width: 800px) {
   h1 {
     font-size: 36px;
     padding: 5px;
   }
-  a{
+  a {
     font-size: 18px;
   }
-  p{
+  p {
     font-size: 18px;
   }
   li {
