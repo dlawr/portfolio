@@ -1,11 +1,28 @@
+/***********************/
+/*partials*/
+/***********************/
 header {
-  text-align: center;
   background-size: cover;
   color: black;
 }
-footer {
+header img {
+  margin: 40px 0px 0px 0px;
+  border-radius: 20px;
+}
+.nav ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.1);
+}
+.nav li {
+  display: inline;
+  padding: 0px 20px 0px 0px;
+}
+.nav {
   text-align: center;
 }
+/***********************/
+/*general*/
+/***********************/
 body {
   background: white;
   background-size: cover;
@@ -20,18 +37,6 @@ h1 {
 }
 p {
   font-size: 20px;
-}
-img {
-  margin: 40px 0px 0px 0px;
-  border-radius: 20px;
-}
-ul {
-  padding: 10px;
-  background: rgba(0,0,0,0.1);
-}
-li {
-  display: inline;
-  padding: 0px 20px 0px 0px;
 }
 article {
   max-width: 500px;
