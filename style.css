@@ -57,6 +57,7 @@ article {
 .project img {
    float: left;
    border-style: solid;
+   color: black;
 }​
 /***********************/
 /*reactive design/narrow screen*/
